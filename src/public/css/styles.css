@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.w3-container {
+  margin-top: 50px;
+}
+
+.w3-container button a {
+  text-decoration: none;
+}
+
+.user-detail table {
+  width: 50%;
+}
+
+.user-detail table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.user-detail th, td {
+  padding: 5px;
+  text-align: left;
+}
